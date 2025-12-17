@@ -1,4 +1,14 @@
 #Developed by Araz Hamayeli Mehrabani, Flensburg University of Applied Sciences
+
+"""
+OpenFAST-DLC-Runner
+
+Automates sequential OpenFAST DLC simulations by updating wind inputs,
+HydroDyn configurations, executing OpenFAST, and organizing outputs.
+
+Developed for project-specific academic and engineering workflows.
+"""
+
 import os
 import shutil
 import subprocess
@@ -111,3 +121,4 @@ for wind_file in wind_files:
             shutil.move(file_path, new_file_path)
             print(f'Moved and renamed {file} to {new_file_name}')
             print("/////////////////////////////////////////////////////////////////////////")
+
