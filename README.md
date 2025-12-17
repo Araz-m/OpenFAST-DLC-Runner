@@ -190,3 +190,11 @@ A detailed PDF manual ([Download the PDF manual](./OpenFAST-DLC-Runner-Manual.pd
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Author
+
+Developed by **Araz Hamayeli Mehrabani**  
+Flensburg University of Applied Sciences
+
