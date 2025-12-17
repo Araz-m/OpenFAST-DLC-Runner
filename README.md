@@ -148,26 +148,42 @@ This structure simplifies post-processing and traceability.
 ```bash
 
 ⚠️ Note: The exact file names and folder arrangement may vary depending on your project setup.
-Ensure that `project.py`, OpenFAST input files, and the batch file are located in the same DLC folder when running the script.
+Ensure that `OpenFast-DLC-Runner.py`, OpenFAST input files, and the batch file are located in the same DLC folder when running the script.
 
 ```
 
 ---
 
+## Limitations
 
-----------------------------------------------------------------------------
-# Contributing
- Contributions are welcome! To contribute:
+- Designed for a specific turbine and directory structure
 
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -m "Add new feature").
-4. Push to your branch (git push origin feature-branch).
-5. Open a pull request.
---------------------------------------------------------------------------------
+- File names and paths are project-specific
+
+- Uses Windows batch execution and pyautogui
+
+- Runs simulations sequentially (not parallel)
+
+- Requires manual adaptation for other turbines or DLCs
+
+---
+
+## Related Tools
+
+This tool is part of a broader OpenFAST automation workflow:
+
+- OpenFAST-DLC-Runner
+  Automates generation and execution of individual DLC cases
+  https://github.com/Araz-m/OpenFAST-DLC-Runner
+
+- OpenFAST-Output-Monitor
+  Real-time and post-processing visualization of OpenFAST outputs
+  https://github.com/Araz-m/OpenFAST-Output-Monitor
+
+---
 
 A detailed *pdf manual* added as a guide
---------------------------------------------------------------------------
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
