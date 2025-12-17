@@ -146,10 +146,8 @@ This structure simplifies post-processing and traceability.
 ├── 📁 Wave              # Contains HydroDyn input files
 
 ```bash
-
 ⚠️ Note: The exact file names and folder arrangement may vary depending on your project setup.
 Ensure that `OpenFast-DLC-Runner.py`, OpenFAST input files, and the batch file are located in the same DLC folder when running the script.
-
 ```
 
 ---
@@ -179,12 +177,13 @@ This tool is part of a broader OpenFAST automation workflow:
 - OpenFAST-Output-Monitor
   Real-time and post-processing visualization of OpenFAST outputs
   https://github.com/Araz-m/OpenFAST-Output-Monitor
-
+  
 ---
 
 ## User Guide / PDF Manual
 
-A detailed PDF manual (`OpenFAST-DLC-Runner-Manual.pdf`) is included for step-by-step instructions, particularly useful for users who are new to OpenFAST or Python scripting.
+A detailed PDF manual ([Download the PDF manual](./OpenFAST-DLC-Runner-Manual.pdf)
+) is included for step-by-step instructions, particularly useful for users who are new to OpenFAST or Python scripting.
 
 ---
 
